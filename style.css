@@ -43,6 +43,12 @@ section {
 .character img {
     width: 1000px;
     height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.character img:hover {
+    transform: scale(1.2); 
+    opacity: 0.8;
 }
 
 footer {
