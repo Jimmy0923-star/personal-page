@@ -42,7 +42,7 @@ section {
 
 .character img {
     width: 1000px;
-    height: 1000px;
+    height: auto;
 }
 
 footer {
