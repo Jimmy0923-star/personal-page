@@ -60,7 +60,7 @@ footer {
 }
 body.dark-mode {
     background-color: #333;
-    color: #fff;
+    color: #00fbff;
 }
 body.dark-mode a {
     color: #4CAF50;
