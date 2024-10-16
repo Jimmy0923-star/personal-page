@@ -58,6 +58,13 @@ footer {
     background-color: #333;
     color: white;
 }
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+body.dark-mode a {
+    color: #4CAF50;
+}
 
 
 
