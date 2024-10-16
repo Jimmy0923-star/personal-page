@@ -41,7 +41,7 @@ section {
 }
 
 .character img {
-    width: 1000px;
+    width: 500px;
     height: auto;
     transition: transform 0.3s, opacity 0.3s;
 }
