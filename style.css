@@ -4,6 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 header {
@@ -34,6 +35,7 @@ section {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
 }
 
 .character {
@@ -51,14 +53,14 @@ section {
     text-align: center; /* 圖片和文字置中 */
 }
 .character img {
-    width: 300px;
+    width: 400px;
     height: auto;
     transition: transform 0.3s, opacity 0.3s;
      margin-bottom: 10px;
 }
 
 .character p {
-    max-width: 200px; /* 限制文字寬度，不會溢出到其他角色 */
+    max-width: 400px; /* 限制文字寬度，不會溢出到其他角色 */
     margin: 0 auto;
 }
 
