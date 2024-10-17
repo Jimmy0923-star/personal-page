@@ -85,16 +85,7 @@
     <footer>
         <p>初步製作請見諒：<a href="mailto:930923jimmy@gmail.com">930923jimmy@gmail.com</a></p>
     </footer>
-
-    <button onclick="toggleTheme()">切換主題</button>
-    <button onclick="scrollToTop()" id="topBtn">回到頂端</button>
-
-<script>
-function toggleTheme() {
-    document.body.classList.toggle('dark-mode');
-}
-</script>
-    window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function() {
     var sections = document.querySelectorAll('section');
     sections.forEach(function(section) {
         var position = section.getBoundingClientRect();
@@ -105,6 +96,14 @@ function toggleTheme() {
         }
     });
 });
+    <button onclick="toggleTheme()">切換主題</button>
+    <button onclick="scrollToTop()" id="topBtn">回到頂端</button>
+
+<script>
+function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+}
+</script>
 
     <script src="java.js"></script>
 </body>
