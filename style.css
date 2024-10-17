@@ -40,10 +40,26 @@ section {
     margin-bottom: 20px;
 }
 
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 每行3個角色 */
+    gap: 20px; /* 每個角色之間的間距 */
+}
+
+
+.character {
+    text-align: center; /* 圖片和文字置中 */
+}
 .character img {
     width: 300px;
     height: auto;
     transition: transform 0.3s, opacity 0.3s;
+     margin-bottom: 10px;
+}
+
+.character p {
+    max-width: 200px; /* 限制文字寬度，不會溢出到其他角色 */
+    margin: 0 auto;
 }
 
 .character img:hover {
