@@ -42,10 +42,10 @@ section {
 
 .character-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 每行3個角色 */
+    grid-template-columns: repeat(3, 1fr); /* 每行顯示三個角色 */
     gap: 20px; /* 每個角色之間的間距 */
+    grid-auto-flow: row; /* 確保角色按行排列 */
 }
-
 
 .character {
     text-align: center; /* 圖片和文字置中 */
