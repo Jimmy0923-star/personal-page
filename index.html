@@ -85,17 +85,6 @@
     <footer>
         <p>初步製作請見諒：<a href="mailto:930923jimmy@gmail.com">930923jimmy@gmail.com</a></p>
     </footer>
-window.addEventListener('scroll', function() {
-    var sections = document.querySelectorAll('section');
-    sections.forEach(function(section) {
-        var position = section.getBoundingClientRect();
-        if (position.top < window.innerHeight && position.bottom >= 0) {
-            section.classList.add('in-view');
-        } else {
-            section.classList.remove('in-view');
-        }
-    });
-});
     <button onclick="toggleTheme()">切換主題</button>
     <button onclick="scrollToTop()" id="topBtn">回到頂端</button>
 
@@ -106,5 +95,18 @@ function toggleTheme() {
 </script>
 
     <script src="java.js"></script>
+      <script>
+    window.addEventListener('scroll', function() {
+        var sections = document.querySelectorAll('section');
+        sections.forEach(function(section) {
+            var position = section.getBoundingClientRect();
+            if (position.top < window.innerHeight && position.bottom >= 0) {
+                section.classList.add('in-view');
+            } else {
+                section.classList.remove('in-view');
+            }
+        });
+    });
+    </script>
 </body>
 </html>
